@@ -1,0 +1,62 @@
+.about {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.slideshow {
+  width: 200%;
+  max-width: 420px; /* Set a max width for the slideshow */
+  margin-top: 20px; /* Adjusted margin */
+}
+
+.slideshow .carousel-wrapper {
+  position: relative;
+}
+
+.aboutText {
+  width: 100%;
+  max-width: 800px; /* Set a max width for the text */
+  margin-top: 20px; /* Adjusted margin */
+}
+
+.aboutText h1,
+.aboutText h3,
+.aboutText p {
+  text-align: center;
+  color: white; /* Adjusted text color */
+}
+
+.aboutTop {
+  width: 100%;
+  height: 40vh; /* Adjusted height */
+  
+}
+
+
+.aboutBottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px; /* Adjusted margin */
+}
+
+.aboutBottom p {
+  width: 80%; /* Adjusted */
+  max-width: 1200px; /* Added */
+  margin-bottom: 20px;
+  font-size: 1rem;
+  text-align: center; /* Updated */
+}
+
+.about .aboutBottom h1 {
+  font-weight: 400;
+  font-size: 70px;
+  color: rgb(223, 237, 121);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  transform: translateY(-40px);
+}
